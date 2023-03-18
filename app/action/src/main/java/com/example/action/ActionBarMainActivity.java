@@ -47,6 +47,7 @@ public class ActionBarMainActivity extends AppCompatActivity {
             case R.id.refresh:
                 DialogFragment dialogFragment = new DialogFragment();
                 dialogFragment.show(getSupportFragmentManager(), "My Fragment");
+                break;
             case R.id.copy:
                 Toast.makeText(this,"copy clicked", Toast.LENGTH_SHORT).show();
                 break;
