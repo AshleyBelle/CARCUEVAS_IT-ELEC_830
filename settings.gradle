@@ -16,3 +16,4 @@ rootProject.name = "hello android"
 include ':app'
 include ':action_bar'
 include ':app:action'
+include ':buttomnav'
