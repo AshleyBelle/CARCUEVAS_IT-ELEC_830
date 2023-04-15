@@ -13,7 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        TextView textView = (TextView) findViewById(R.id.text_second);
+        TextView textView = (TextView) findViewById(R.id.text);
 
         Intent intent = getIntent();
         String fromMain = intent.getStringExtra("PASS_ME");

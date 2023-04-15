@@ -12,9 +12,9 @@ public class Action_Bar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_action_bar);
 
-        ActionBar actionBar = getSupportActionBar();
+        //ActionBar actionBar = getSupportActionBar();
 
-        actionBar
+
 
 
 
