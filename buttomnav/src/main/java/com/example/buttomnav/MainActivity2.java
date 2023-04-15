@@ -6,7 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.buttomnav.databinding.ActivityMainBinding;
+
 public class MainActivity2 extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
